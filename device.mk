@@ -20,6 +20,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Overlays Lineage-Specific
+PRODUCT_PACKAGES += \
+	ApertureResDm1q
+
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResDm1q \
